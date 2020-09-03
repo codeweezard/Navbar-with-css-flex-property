@@ -1,0 +1,99 @@
+/* default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styling */
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #428842;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-header {
+  width: 100%;
+  max-width: 1170px;
+  /* background-color: lightgray; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: antiquewhite;
+}
+.nav-link {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.nav-link li {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+
+.nav-link li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+/* Navbar styling ends */
+
+/* hero  */
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/IMG_20200525_172340_527.jpg);
+  background-repeat: none;
+  opacity: 0.8;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3.5rem;
+  color: #0905fd;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hero button {
+  width: 150px;
+  height: 50px;
+  background-color: #598604;
+  color: white;
+  border-radius: 20px;
+  outline: none;
+}
+
+/* hero   ends*/
